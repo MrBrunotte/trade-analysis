@@ -36,18 +36,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-h1, h2, h3, h4, h5, h6 {
+.myh1, .myh2, .myh3, .myh4, .myh5, .myh6 {
   font-family: 'Notable', sans-serif;
   color: #9b9b9b;
   margin: 1vh 0vw 2vh;
 }
 
-h1 { font-size: 2.375rem; text-align: center; text-transform: uppercase;; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.75rem; }
-h4 { font-size: 1.50rem; }
-h5 { font-size: 1.25rem; }
-h6 { font-size: 1rem; }
+.myh1 { font-size: 4.5rem; text-align: center; text-transform: uppercase; color: #caa532; }
+.myh2 { font-size: 2rem; }
+.myh3 { font-size: 1.75rem; }
+.myh4 { font-size: 1.50rem; }
+.myh5 { font-size: 1.25rem; }
+.myh6 { font-size: 1rem; }
 .myUppercase {
   text-transform: uppercase;
 }
@@ -57,3 +57,25 @@ h6 { font-size: 1rem; }
 .containerHeader {
   margin: 10px 0 30px;
 }
+.instrumentName, .result, .day, .date, .tickSize, .sessionStart, .sessionEnd, .numOfTrades, .break-even {
+  color: #caa532;
+}
+.profit, .winners, .bigWin { color: lime;}
+.loss, .losers, .bigLoss { color: red;}
+.break-even { color: white;}
+
+.instrumentName::before { content: 'Instrument name: '; color: #9b9b9b; }
+.result::before { content: 'Daily result: '; color: #9b9b9b; }
+.day::before { content: 'Trading day: '; color: #9b9b9b; }
+.date::before { content: 'Trading date: '; color: #9b9b9b; }
+.tickSize::before { content: 'Tick size: '; color: #9b9b9b; }
+.sessionStart::before { content: 'Session start: '; color: #9b9b9b; }
+.sessionEnd::before { content: 'Session end: '; color: #9b9b9b; }
+.profit::before { content: 'Total winners: '; color: #9b9b9b; }
+.loss::before { content: 'Total losers: '; color: #9b9b9b; }
+.numOfTrades::before { content: 'Number of trades: '; color: #9b9b9b; }
+.winners::before { content: 'Winners: '; color: #9b9b9b; }
+.losers::before { content: 'Losers: '; color: #9b9b9b; }
+.bigWin::before { content: 'Biggest winner: '; color: #9b9b9b; }
+.bigLoss::before { content: 'Biggest loser: '; color: #9b9b9b; }
+.break-even::before { content: 'Break-even: '; color: #9b9b9b; }
