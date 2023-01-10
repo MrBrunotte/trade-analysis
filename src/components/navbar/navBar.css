@@ -1,0 +1,23 @@
+.nav-background {
+    background-color: #222529;
+}
+.navbar>.container-fluid {
+    justify-content: end !important;
+}
+.navbar-nav {
+    text-align: end;
+}
+.nav-style {
+    padding: 4vh 0 2vh;
+}
+.my-nav-link {
+    color: #9b9b9b !important;
+    text-transform: uppercase;
+    margin-right: 1.5vw;
+    font-family: 'Notable', sans-serif;
+    letter-spacing: 3px;
+    font-size: 1rem !important;
+}
+.my-nav-link:hover {
+    color:#CAA532 !important; 
+}

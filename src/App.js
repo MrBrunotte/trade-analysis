@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-
+import MyNavbar from './components/navbar/navBar';
+import Indices  from './components/indices/indices';
+import Currency from './components/currency/currency';
+import Home from './components/home/home';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <MyNavbar></MyNavbar>
+    <Routes>
+      <Route path="/indices" element={<Indices />} />
+      <Route path="/currency" element={<Currency />} />
+      <Route path="/" exact element={<Home />} />
+    </Routes>
+    </>
   );
 }
 
