@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/trade-analysis/static/css/main.ede2a955.css",
-    "main.js": "/trade-analysis/static/js/main.c7aba4ca.js",
+    "main.css": "/trade-analysis/static/css/main.24862fd3.css",
+    "main.js": "/trade-analysis/static/js/main.47e8754b.js",
     "static/media/testES.jpg": "/trade-analysis/static/media/testES.06291e5a71a01655aa45.jpg",
     "index.html": "/trade-analysis/index.html",
-    "main.ede2a955.css.map": "/trade-analysis/static/css/main.ede2a955.css.map",
-    "main.c7aba4ca.js.map": "/trade-analysis/static/js/main.c7aba4ca.js.map"
+    "main.24862fd3.css.map": "/trade-analysis/static/css/main.24862fd3.css.map",
+    "main.47e8754b.js.map": "/trade-analysis/static/js/main.47e8754b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ede2a955.css",
-    "static/js/main.c7aba4ca.js"
+    "static/css/main.24862fd3.css",
+    "static/js/main.47e8754b.js"
   ]
 }
