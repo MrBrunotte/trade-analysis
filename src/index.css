@@ -57,25 +57,3 @@ code {
 .containerHeader {
   margin: 10px 0 30px;
 }
-.instrumentName, .result, .day, .date, .tickSize, .sessionStart, .sessionEnd, .numOfTrades, .break-even {
-  color: #caa532;
-}
-.profit, .winners, .bigWin { color: lime;}
-.loss, .losers, .bigLoss { color: red;}
-.break-even { color: white;}
-
-.instrumentName::before { content: 'Instrument name: '; color: #9b9b9b; }
-.result::before { content: 'Daily result: '; color: #9b9b9b; }
-.day::before { content: 'Trading day: '; color: #9b9b9b; }
-.date::before { content: 'Trading date: '; color: #9b9b9b; }
-.tickSize::before { content: 'Tick size: '; color: #9b9b9b; }
-.sessionStart::before { content: 'Session start: '; color: #9b9b9b; }
-.sessionEnd::before { content: 'Session end: '; color: #9b9b9b; }
-.profit::before { content: 'Total winners: '; color: #9b9b9b; }
-.loss::before { content: 'Total losers: '; color: #9b9b9b; }
-.numOfTrades::before { content: 'Number of trades: '; color: #9b9b9b; }
-.winners::before { content: 'Winners: '; color: #9b9b9b; }
-.losers::before { content: 'Losers: '; color: #9b9b9b; }
-.bigWin::before { content: 'Biggest winner: '; color: #9b9b9b; }
-.bigLoss::before { content: 'Biggest loser: '; color: #9b9b9b; }
-.break-even::before { content: 'Break-even: '; color: #9b9b9b; }

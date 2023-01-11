@@ -1,5 +1,6 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import '../indices/indices.css';
 
 let Currency = () => {
     return (

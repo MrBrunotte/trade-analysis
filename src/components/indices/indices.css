@@ -1,0 +1,74 @@
+ 
+ /* Header part */
+ .instrumentName, .result, .day, .date, .tickSize, .sessionStart, .sessionEnd, .numOfTrades, .break-even {
+    color: #caa532;
+  }
+  .profit, .winners, .bigWin, .plusPoints, .plusTicks { color: lime;}
+  .loss, .losers, .bigLoss, .minusPoints, .minusTicks { color: red;}
+  .break-even { color: white;}
+  
+  .instrumentName::before { content: 'Instrument: '; color: #9b9b9b; }
+  .result::before { content: 'Result: '; color: #9b9b9b; }
+  .result::after { content: ' point(s)'; color: #9b9b9b; }
+  .day::before { content: 'Weekday: '; color: #9b9b9b; }
+  .date::before { content: 'Date: '; color: #9b9b9b; }
+  
+  .tickSize::before { content: 'Tick size: '; color: #9b9b9b; }
+  .sessionStart::before { content: 'Session start: '; color: #9b9b9b; }
+  .sessionEnd::before { content: 'Session end: '; color: #9b9b9b; }
+  .profit::before { content: 'Profit: '; color: #9b9b9b; }
+  .loss::before { content: 'Loss: '; color: #9b9b9b; }
+  .numOfTrades::before { content: 'Number of trades: '; color: #9b9b9b; }
+  
+  .winners::before { content: 'Winners: '; color: #9b9b9b; }
+  .winners::after { content: ' trade(s)'; color: #9b9b9b; }
+  
+  .losers::before { content: 'Losers: '; color: #9b9b9b; }
+  .losers::after { content: ' trade(s)'; color: #9b9b9b; }
+  
+  .plusPoints::before { content: 'Points gained: '; color: #9b9b9b; }
+  .plusPoints::after { content: ' point(s)'; color: #9b9b9b; }
+  .plusTicks::before { content: 'Ticks gained: '; color: #9b9b9b; }
+  .plusTicks::after { content: ' tick(s)'; color: #9b9b9b; }
+  .plusPips::before { content: 'Pips gained: '; color: #9b9b9b; }
+  .plusPips::after { content: ' pip(s)'; color: #9b9b9b; }
+  
+  .bigWin::before { content: 'Largest winner: '; color: #9b9b9b; }
+  .bigWin::after { content: ' point(s)'; color: #9b9b9b; }
+  
+  .minusPoints::before { content: 'Points lost: '; color: #9b9b9b; }
+  .minusPoints::after { content: ' point(s)'; color: #9b9b9b; }
+  .minusTicks::before { content: 'Ticks lost: '; color: #9b9b9b; }
+  .minusTicks::after { content: ' tick(s)'; color: #9b9b9b; }
+  .minusPips::before { content: 'Pips lost: '; color: #9b9b9b; }
+  .minusPips::after { content: ' pip(s)'; color: #9b9b9b; }
+  
+  .bigLoss::before { content: 'Largest loss: '; color: #9b9b9b; }
+  .bigLoss::after { content: ' point(s)'; color: #9b9b9b; }
+  
+  .break-even::before { content: 'Break-even: '; color: #9b9b9b; }
+  .break-even::after { content: ' trade(s)'; color: #9b9b9b; }
+
+  /* Trade info part */
+  .tradeImage { align-content: flex-end; }
+  .upperCa {text-transform: uppercase; }
+  .myh5 { color: #caa532; }
+  .width100 { width: 100%; }
+
+  .actualRiskReward { content: ' points';color: #caa532; }
+  .actualRiskReward::before { content: 'Actual Risk/Reward: '; color: #9b9b9b; }
+  .actualRiskReward::after { content: ' points'; color: #caa532; }
+
+  .initialRiskReward { content: ' points';color: #caa532; }
+  .initialRiskReward::before { content: 'Initial Risk/Reward: '; color: #9b9b9b; }
+  .initialRiskReward::after { content: ' points'; color: #caa532; }
+
+  .entry::before { content: 'Entry: '; color: #9b9b9b; }
+  .initialStop::before { content: 'Initial Stop: '; color: #9b9b9b; }
+  .actualStop::before { content: 'Actual Stop: '; color: #9b9b9b; }
+  .exit::before { content: 'Exit: '; color: #9b9b9b; }
+  .winners::after { content: ' trade(s)'; color: #9b9b9b; }
+  .tradeResultPoints::before { content: 'Points: '; color: #9b9b9b; }
+  .tradeResultPoints::after { content: ' points'; color: #caa532; }
+  .tradeResultTicks::before { content: 'Ticks: '; color: #9b9b9b; }
+  .tradeResultTicks::after { content: ' ticks'; color: #caa532; }
