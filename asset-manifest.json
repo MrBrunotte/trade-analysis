@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/trade-analysis/static/css/main.24862fd3.css",
-    "main.js": "/trade-analysis/static/js/main.47e8754b.js",
-    "static/media/testES.jpg": "/trade-analysis/static/media/testES.06291e5a71a01655aa45.jpg",
+    "main.css": "/trade-analysis/static/css/main.62119a70.css",
+    "main.js": "/trade-analysis/static/js/main.807a30db.js",
+    "static/media/es03012023.jpg": "/trade-analysis/static/media/es03012023.41a0638b62b8cd41b707.jpg",
+    "static/media/es03012023Tr5.jpg": "/trade-analysis/static/media/es03012023Tr5.763960cf4cf4645dd44c.jpg",
+    "static/media/es03012023Tr2.jpg": "/trade-analysis/static/media/es03012023Tr2.dbc39cb4eda8f4d6e5d4.jpg",
+    "static/media/es03012023Tr3.jpg": "/trade-analysis/static/media/es03012023Tr3.a6838a6892caf7254539.jpg",
+    "static/media/es03012023Tr4.jpg": "/trade-analysis/static/media/es03012023Tr4.aabdaeda396544f752cb.jpg",
+    "static/media/es03012023Tr1.jpg": "/trade-analysis/static/media/es03012023Tr1.2baabb30db5af382f06c.jpg",
     "index.html": "/trade-analysis/index.html",
-    "main.24862fd3.css.map": "/trade-analysis/static/css/main.24862fd3.css.map",
-    "main.47e8754b.js.map": "/trade-analysis/static/js/main.47e8754b.js.map"
+    "main.62119a70.css.map": "/trade-analysis/static/css/main.62119a70.css.map",
+    "main.807a30db.js.map": "/trade-analysis/static/js/main.807a30db.js.map"
   },
   "entrypoints": [
-    "static/css/main.24862fd3.css",
-    "static/js/main.47e8754b.js"
+    "static/css/main.62119a70.css",
+    "static/js/main.807a30db.js"
   ]
 }
